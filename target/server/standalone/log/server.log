@@ -1,0 +1,1050 @@
+2023-02-21 05:49:54,895 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-02-21 05:49:55,872 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-21 05:49:55,880 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-21 05:49:56,002 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-02-21 05:49:56,005 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Program Files\Java\jdk11.0.10
+	java.io.tmpdir = C:\Users\USUARI~1.LAP\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Paquetes;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\emulator;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk11.0.10\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\gradle-6.8.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.0\bin;C:\Program Files\apache-activemq-5.16.2\bin;C:\wamp64\bin\php\php5.6.40;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ORACLEINSTANTCLIENT;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\PDFtk\bin\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Yarn\bin;C:\Program Files\nodejs\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Microsoft\WindowsApps;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nvm;C:\Program Files\nodejs;C:\Program Files\nvm;C:\Paquetes;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\Composer\vendor\bin;C:\Users\usuario.LAPTOP-F3FG00LV\.dotnet\tools;C:\Program Files\heroku\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 11.0.10+8-LTS-162
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://openjdk.java.net/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.10
+	java.version.date = 2021-01-19
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.10+8-LTS-162
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server
+	jboss.host.name = pc-207
+	jboss.modules.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc-207
+	jboss.qualified.host.name = pc-207
+	jboss.server.base.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone
+	jboss.server.config.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log
+	jboss.server.name = pc-207
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties
+	module.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	org.jboss.boot.log.file = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk11.0.10\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar -mp C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = UY
+	user.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy
+	user.home = C:\Users\usuario.LAPTOP-F3FG00LV
+	user.language = es
+	user.name = usuario
+	user.script = 
+	user.timezone = America/Montevideo
+	user.variant = 
+2023-02-21 05:49:56,008 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-modules=java.se --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-modules=java.se -Djboss.home.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server -Djboss.server.base.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone -Djboss.server.log.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log -Djboss.server.config.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration -Dorg.jboss.boot.log.file=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log -Dlogging.configuration=file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties 
+2023-02-21 05:49:56,780 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-02-21 05:49:57,079 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 17) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-02-21 05:49:57,087 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 17) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-02-21 05:49:57,383 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 24) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-02-21 05:49:57,469 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-21 05:49:57,493 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.8.8.Final
+2023-02-21 05:49:57,505 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.8.8.Final
+2023-02-21 05:49:57,615 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-02-21 05:49:57,628 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-02-21 05:49:57,631 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-21 05:49:57,638 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-02-21 05:49:57,642 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-02-21 05:49:57,645 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-21 05:49:57,644 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-02-21 05:49:57,649 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-02-21 05:49:57,653 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-02-21 05:49:57,668 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-02-21 05:49:57,690 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-02-21 05:49:57,679 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-02-21 05:49:57,661 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-02-21 05:49:57,712 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-02-21 05:49:57,763 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-02-21 05:49:57,767 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.26.Final
+2023-02-21 05:49:57,791 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-02-21 05:49:57,849 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-21 05:49:57,889 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2023-02-21 05:49:57,989 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-21 05:49:58,026 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY00023: KeyStore file 'C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-02-21 05:49:58,043 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-02-21 05:49:58,088 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-02-21 05:49:58,151 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-02-21 05:49:58,146 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-02-21 05:49:58,165 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2023-02-21 05:49:58,199 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) Queuing requests.
+2023-02-21 05:49:58,204 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2023-02-21 05:49:58,531 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-02-21 05:49:58,537 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\deployments
+2023-02-21 05:49:58,898 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-02-21 05:49:58,898 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-02-21 05:49:59,027 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-02-21 05:49:59,038 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-21 05:49:59,107 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-02-21 05:49:59,223 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-02-21 05:49:59,227 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 4668ms - Started 290 of 563 services (357 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-02-21 05:49:59,230 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-02-21 05:49:59,231 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-02-21 05:51:24,618 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-02-21 05:51:25,302 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-21 05:51:25,311 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-21 05:51:25,459 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-02-21 05:51:25,468 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Program Files\Java\jdk11.0.10
+	java.io.tmpdir = C:\Users\USUARI~1.LAP\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Paquetes;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\emulator;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk11.0.10\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\gradle-6.8.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.0\bin;C:\Program Files\apache-activemq-5.16.2\bin;C:\wamp64\bin\php\php5.6.40;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ORACLEINSTANTCLIENT;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\PDFtk\bin\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Yarn\bin;C:\Program Files\nodejs\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Microsoft\WindowsApps;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nvm;C:\Program Files\nodejs;C:\Program Files\nvm;C:\Paquetes;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\Composer\vendor\bin;C:\Users\usuario.LAPTOP-F3FG00LV\.dotnet\tools;C:\Program Files\heroku\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 11.0.10+8-LTS-162
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://openjdk.java.net/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.10
+	java.version.date = 2021-01-19
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.10+8-LTS-162
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server
+	jboss.host.name = pc-207
+	jboss.modules.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc-207
+	jboss.qualified.host.name = pc-207
+	jboss.server.base.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone
+	jboss.server.config.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log
+	jboss.server.name = pc-207
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties
+	module.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	org.jboss.boot.log.file = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk11.0.10\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar -mp C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = UY
+	user.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy
+	user.home = C:\Users\usuario.LAPTOP-F3FG00LV
+	user.language = es
+	user.name = usuario
+	user.script = 
+	user.timezone = America/Montevideo
+	user.variant = 
+2023-02-21 05:51:25,474 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-modules=java.se --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-modules=java.se -Djboss.home.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server -Djboss.server.base.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone -Djboss.server.log.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log -Djboss.server.config.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration -Dorg.jboss.boot.log.file=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log -Dlogging.configuration=file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties 
+2023-02-21 05:51:26,232 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-02-21 05:51:26,537 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 25) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-02-21 05:51:26,551 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 25) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-02-21 05:51:26,766 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-02-21 05:51:26,831 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-21 05:51:26,858 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.8.Final
+2023-02-21 05:51:26,872 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.8.Final
+2023-02-21 05:51:26,934 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-02-21 05:51:26,933 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-21 05:51:26,948 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-02-21 05:51:26,956 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-21 05:51:26,959 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-02-21 05:51:26,959 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-02-21 05:51:26,960 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-02-21 05:51:26,960 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-02-21 05:51:26,971 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-02-21 05:51:26,957 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-02-21 05:51:26,978 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-02-21 05:51:27,016 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-02-21 05:51:27,057 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-02-21 05:51:27,166 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-02-21 05:51:27,170 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2023-02-21 05:51:27,204 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-02-21 05:51:27,213 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-21 05:51:27,247 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-21 05:51:27,283 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY00023: KeyStore file 'C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-02-21 05:51:27,325 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY01084: KeyStore C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-02-21 05:51:27,517 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-02-21 05:51:28,237 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-02-21 05:51:28,257 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-02-21 05:51:28,257 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-02-21 05:51:28,322 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.26.Final
+2023-02-21 05:51:28,326 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2023-02-21 05:51:28,330 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-02-21 05:51:28,338 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) Queuing requests.
+2023-02-21 05:51:28,339 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\deployments
+2023-02-21 05:51:28,342 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2023-02-21 05:51:28,395 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-02-21 05:51:28,414 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-02-21 05:51:28,476 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-21 05:51:28,532 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-02-21 05:51:28,544 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-02-21 05:51:28,653 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-02-21 05:51:28,656 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 4402ms - Started 290 of 563 services (357 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-02-21 05:51:28,660 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-02-21 05:51:28,661 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-02-21 05:57:18,996 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-02-21 05:57:19,541 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-21 05:57:19,551 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-21 05:57:19,663 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-02-21 05:57:19,676 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Program Files\Java\jdk11.0.10
+	java.io.tmpdir = C:\Users\USUARI~1.LAP\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Paquetes;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\emulator;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk11.0.10\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\gradle-6.8.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.0\bin;C:\Program Files\apache-activemq-5.16.2\bin;C:\wamp64\bin\php\php5.6.40;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ORACLEINSTANTCLIENT;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\PDFtk\bin\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Yarn\bin;C:\Program Files\nodejs\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Microsoft\WindowsApps;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nvm;C:\Program Files\nodejs;C:\Program Files\nvm;C:\Paquetes;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\Composer\vendor\bin;C:\Users\usuario.LAPTOP-F3FG00LV\.dotnet\tools;C:\Program Files\heroku\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 11.0.10+8-LTS-162
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://openjdk.java.net/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.10
+	java.version.date = 2021-01-19
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.10+8-LTS-162
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server
+	jboss.host.name = pc-207
+	jboss.modules.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc-207
+	jboss.qualified.host.name = pc-207
+	jboss.server.base.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone
+	jboss.server.config.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log
+	jboss.server.name = pc-207
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties
+	module.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	org.jboss.boot.log.file = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk11.0.10\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar -mp C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = UY
+	user.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy
+	user.home = C:\Users\usuario.LAPTOP-F3FG00LV
+	user.language = es
+	user.name = usuario
+	user.script = 
+	user.timezone = America/Montevideo
+	user.variant = 
+2023-02-21 05:57:19,683 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-modules=java.se --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-modules=java.se -Djboss.home.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server -Djboss.server.base.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone -Djboss.server.log.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log -Djboss.server.config.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration -Dorg.jboss.boot.log.file=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log -Dlogging.configuration=file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties 
+2023-02-21 05:57:21,134 ERROR [org.jboss.as.controller] (Controller Boot Thread) 
+
+OPVDX001: Error de validación en standalone.xml --------------------------------
+|
+|  64: 
+|  65:         <management-interfaces>
+|  66:             <http-interface security-realm="ManagementRealm">
+|                                                                   ^^^^ 'security-realm' no es un atributo permitido para el elemento
+|                                                                          'http-interface'
+|                                                                        
+|                                                                        Los atributos permitidos aquí son: 
+|                                                                          allowed-origins              sasl-protocol                
+|                                                                          console-enabled              server-name                  
+|                                                                          http-authentication-factory  ssl-context                  
+|
+|  67:                 <http-upgrade enabled="true"/>
+|  68:                 <socket-binding http="management-http"/>
+|  69:             </http-interface>
+|
+| 'security-realm' se permite en los elementos: 
+| - server > profile > {urn:jboss:domain:remoting:5.0}subsystem > connector
+| - server > profile > {urn:jboss:domain:remoting:5.0}subsystem > http-connector
+| - server > profile > {urn:jboss:domain:remoting:5.0}subsystem > outbound-connections > remote-outbound-connection
+| - server > profile > {urn:jboss:domain:undertow:13.0}subsystem > server > https-listener
+| - server > profile > {urn:jboss:domain:undertow:13.0}subsystem > server > host > http-invoker
+| - server > profile > {urn:jboss:domain:undertow:13.0}subsystem > handlers > reverse-proxy > host
+| - server > profile > {urn:jboss:domain:undertow:13.0}subsystem > filters > mod-cluster
+|
+|
+| El mensaje de error base primario fue:
+| > ParseError at [row,col]:[66,62]
+| > Message: WFLYCTL0197: Unexpected attribute 'security-realm'
+| >   encountered
+|
+|-------------------------------------------------------------------------------
+
+2023-02-21 05:57:21,139 ERROR [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0055: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: WFLYCTL0085: Failed to parse configuration
+	at org.jboss.as.controller@19.0.1.Final//org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:137)
+	at org.jboss.as.server@19.0.1.Final//org.jboss.as.server.ServerService.boot(ServerService.java:405)
+	at org.jboss.as.controller@19.0.1.Final//org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:473)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2023-02-21 05:57:21,141 FATAL [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details. - Server configuration file in use: standalone.xml
+2023-02-21 05:57:21,170 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) stopped in 23ms
+2023-02-21 05:58:35,697 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-02-21 05:58:36,210 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-21 05:58:36,219 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-21 05:58:36,334 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-02-21 05:58:36,339 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Program Files\Java\jdk11.0.10
+	java.io.tmpdir = C:\Users\USUARI~1.LAP\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Paquetes;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\emulator;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk11.0.10\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\gradle-6.8.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.0\bin;C:\Program Files\apache-activemq-5.16.2\bin;C:\wamp64\bin\php\php5.6.40;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ORACLEINSTANTCLIENT;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\PDFtk\bin\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Yarn\bin;C:\Program Files\nodejs\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Microsoft\WindowsApps;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nvm;C:\Program Files\nodejs;C:\Program Files\nvm;C:\Paquetes;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\Composer\vendor\bin;C:\Users\usuario.LAPTOP-F3FG00LV\.dotnet\tools;C:\Program Files\heroku\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 11.0.10+8-LTS-162
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://openjdk.java.net/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.10
+	java.version.date = 2021-01-19
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.10+8-LTS-162
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server
+	jboss.host.name = pc-207
+	jboss.modules.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc-207
+	jboss.qualified.host.name = pc-207
+	jboss.server.base.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone
+	jboss.server.config.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log
+	jboss.server.name = pc-207
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties
+	module.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	org.jboss.boot.log.file = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk11.0.10\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar -mp C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = UY
+	user.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy
+	user.home = C:\Users\usuario.LAPTOP-F3FG00LV
+	user.language = es
+	user.name = usuario
+	user.script = 
+	user.timezone = America/Montevideo
+	user.variant = 
+2023-02-21 05:58:36,347 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-modules=java.se --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-modules=java.se -Djboss.home.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server -Djboss.server.base.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone -Djboss.server.log.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log -Djboss.server.config.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration -Dorg.jboss.boot.log.file=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log -Dlogging.configuration=file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties 
+2023-02-21 05:58:37,264 ERROR [org.jboss.as.controller] (Controller Boot Thread) 
+
+OPVDX001: Error de validación en standalone.xml --------------------------------
+|
+|  64: 
+|  65:         <management-interfaces>
+|  66:             <http-interface security-realm="ManagementRealm">
+|                                                                   ^^^^ 'security-realm' no es un atributo permitido para el elemento
+|                                                                          'http-interface'
+|                                                                        
+|                                                                        Los atributos permitidos aquí son: 
+|                                                                          allowed-origins              sasl-protocol                
+|                                                                          console-enabled              server-name                  
+|                                                                          http-authentication-factory  ssl-context                  
+|
+|  67:                 <http-upgrade enabled="true"/>
+|  68:                 <socket-binding http="management-http"/>
+|  69:             </http-interface>
+|
+| 'security-realm' se permite en los elementos: 
+| - server > profile > {urn:jboss:domain:remoting:5.0}subsystem > connector
+| - server > profile > {urn:jboss:domain:remoting:5.0}subsystem > http-connector
+| - server > profile > {urn:jboss:domain:remoting:5.0}subsystem > outbound-connections > remote-outbound-connection
+| - server > profile > {urn:jboss:domain:undertow:13.0}subsystem > server > https-listener
+| - server > profile > {urn:jboss:domain:undertow:13.0}subsystem > server > host > http-invoker
+| - server > profile > {urn:jboss:domain:undertow:13.0}subsystem > handlers > reverse-proxy > host
+| - server > profile > {urn:jboss:domain:undertow:13.0}subsystem > filters > mod-cluster
+|
+|
+| El mensaje de error base primario fue:
+| > ParseError at [row,col]:[66,62]
+| > Message: WFLYCTL0197: Unexpected attribute 'security-realm'
+| >   encountered
+|
+|-------------------------------------------------------------------------------
+
+2023-02-21 05:58:37,268 ERROR [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0055: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: WFLYCTL0085: Failed to parse configuration
+	at org.jboss.as.controller@19.0.1.Final//org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:137)
+	at org.jboss.as.server@19.0.1.Final//org.jboss.as.server.ServerService.boot(ServerService.java:405)
+	at org.jboss.as.controller@19.0.1.Final//org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:473)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2023-02-21 05:58:37,271 FATAL [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details. - Server configuration file in use: standalone.xml
+2023-02-21 05:58:37,308 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) stopped in 32ms
+2023-02-21 06:00:38,205 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-02-21 06:00:38,707 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-21 06:00:38,718 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-21 06:00:38,820 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-02-21 06:00:38,829 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Program Files\Java\jdk11.0.10
+	java.io.tmpdir = C:\Users\USUARI~1.LAP\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Paquetes;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\emulator;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk11.0.10\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\gradle-6.8.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.0\bin;C:\Program Files\apache-activemq-5.16.2\bin;C:\wamp64\bin\php\php5.6.40;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ORACLEINSTANTCLIENT;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\PDFtk\bin\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Yarn\bin;C:\Program Files\nodejs\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Microsoft\WindowsApps;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nvm;C:\Program Files\nodejs;C:\Program Files\nvm;C:\Paquetes;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\Composer\vendor\bin;C:\Users\usuario.LAPTOP-F3FG00LV\.dotnet\tools;C:\Program Files\heroku\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 11.0.10+8-LTS-162
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://openjdk.java.net/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.10
+	java.version.date = 2021-01-19
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.10+8-LTS-162
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server
+	jboss.host.name = pc-207
+	jboss.modules.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc-207
+	jboss.qualified.host.name = pc-207
+	jboss.server.base.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone
+	jboss.server.config.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log
+	jboss.server.name = pc-207
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties
+	module.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	org.jboss.boot.log.file = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk11.0.10\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar -mp C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = UY
+	user.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy
+	user.home = C:\Users\usuario.LAPTOP-F3FG00LV
+	user.language = es
+	user.name = usuario
+	user.script = 
+	user.timezone = America/Montevideo
+	user.variant = 
+2023-02-21 06:00:38,833 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-modules=java.se --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-modules=java.se -Djboss.home.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server -Djboss.server.base.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone -Djboss.server.log.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log -Djboss.server.config.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration -Dorg.jboss.boot.log.file=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log -Dlogging.configuration=file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties 
+2023-02-21 06:00:39,611 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-02-21 06:00:39,941 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 17) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-02-21 06:00:39,946 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 17) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-02-21 06:00:40,195 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 29) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-02-21 06:00:40,268 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-21 06:00:40,286 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.8.8.Final
+2023-02-21 06:00:40,296 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.8.8.Final
+2023-02-21 06:00:40,342 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-02-21 06:00:40,350 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-21 06:00:40,340 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-21 06:00:40,368 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-02-21 06:00:40,391 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-02-21 06:00:40,421 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-02-21 06:00:40,432 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-02-21 06:00:40,433 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-02-21 06:00:40,437 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-02-21 06:00:40,428 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-02-21 06:00:40,447 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-02-21 06:00:40,491 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-02-21 06:00:40,527 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-02-21 06:00:40,623 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-02-21 06:00:40,663 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-21 06:00:40,671 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY00023: KeyStore file 'C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-02-21 06:00:40,672 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2023-02-21 06:00:40,676 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-21 06:00:40,735 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-02-21 06:00:40,752 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY01084: KeyStore C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-02-21 06:00:40,893 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-02-21 06:00:41,640 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-02-21 06:00:41,648 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-02-21 06:00:41,648 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-02-21 06:00:41,686 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-02-21 06:00:41,691 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.26.Final
+2023-02-21 06:00:41,713 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\deployments
+2023-02-21 06:00:41,714 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2023-02-21 06:00:41,730 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) Queuing requests.
+2023-02-21 06:00:41,731 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2023-02-21 06:00:41,807 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-02-21 06:00:41,844 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-02-21 06:00:41,885 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-21 06:00:41,957 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-02-21 06:00:41,959 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-02-21 06:00:42,052 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-02-21 06:00:42,055 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 4191ms - Started 290 of 563 services (357 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-02-21 06:00:42,059 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-02-21 06:00:42,059 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-02-21 06:04:07,899 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-02-21 06:04:08,583 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-21 06:04:08,591 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-21 06:04:08,704 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-02-21 06:04:08,708 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Program Files\Java\jdk11.0.10
+	java.io.tmpdir = C:\Users\USUARI~1.LAP\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Paquetes;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\emulator;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk11.0.10\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\gradle-6.8.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.0\bin;C:\Program Files\apache-activemq-5.16.2\bin;C:\wamp64\bin\php\php5.6.40;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ORACLEINSTANTCLIENT;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\PDFtk\bin\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Yarn\bin;C:\Program Files\nodejs\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Microsoft\WindowsApps;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nvm;C:\Program Files\nodejs;C:\Program Files\nvm;C:\Paquetes;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\Composer\vendor\bin;C:\Users\usuario.LAPTOP-F3FG00LV\.dotnet\tools;C:\Program Files\heroku\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 11.0.10+8-LTS-162
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://openjdk.java.net/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.10
+	java.version.date = 2021-01-19
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.10+8-LTS-162
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server
+	jboss.host.name = pc-207
+	jboss.modules.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc-207
+	jboss.qualified.host.name = pc-207
+	jboss.server.base.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone
+	jboss.server.config.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log
+	jboss.server.name = pc-207
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration/logging.properties
+	module.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	org.jboss.boot.log.file = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk11.0.10\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar -mp C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules org.jboss.as.standalone -Djboss.home.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = UY
+	user.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\bin
+	user.home = C:\Users\usuario.LAPTOP-F3FG00LV
+	user.language = es
+	user.name = usuario
+	user.script = 
+	user.timezone = America/Montevideo
+	user.variant = 
+2023-02-21 06:04:08,712 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log -Dlogging.configuration=file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration/logging.properties 
+2023-02-21 06:04:09,437 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-02-21 06:04:09,733 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 16) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-02-21 06:04:09,734 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 16) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-02-21 06:04:09,956 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 17) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-02-21 06:04:10,021 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-21 06:04:10,036 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.8.8.Final
+2023-02-21 06:04:10,042 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.8.8.Final
+2023-02-21 06:04:10,081 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-02-21 06:04:10,091 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-02-21 06:04:10,091 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-02-21 06:04:10,091 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-21 06:04:10,089 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-21 06:04:10,095 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-02-21 06:04:10,099 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-02-21 06:04:10,107 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-02-21 06:04:10,134 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-02-21 06:04:10,138 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-02-21 06:04:10,144 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-02-21 06:04:10,161 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-02-21 06:04:10,168 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-02-21 06:04:10,219 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2023-02-21 06:04:10,223 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-21 06:04:10,252 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-02-21 06:04:10,303 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-21 06:04:10,315 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-02-21 06:04:10,387 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file 'C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-02-21 06:04:10,464 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY01084: KeyStore C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-02-21 06:04:10,483 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-02-21 06:04:11,259 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-02-21 06:04:11,261 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-02-21 06:04:11,263 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-02-21 06:04:11,315 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\deployments
+2023-02-21 06:04:11,317 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-02-21 06:04:11,324 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.26.Final
+2023-02-21 06:04:11,354 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2023-02-21 06:04:11,356 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2023-02-21 06:04:11,358 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2023-02-21 06:04:11,419 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-02-21 06:04:11,419 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-02-21 06:04:11,492 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-21 06:04:11,583 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-02-21 06:04:11,589 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-02-21 06:04:11,698 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-02-21 06:04:11,701 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 4187ms - Started 290 of 563 services (357 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-02-21 06:04:11,706 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-02-21 06:04:11,706 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-02-21 06:06:51,029 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-02-21 06:06:51,541 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-21 06:06:51,552 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-21 06:06:51,657 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-02-21 06:06:51,660 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Program Files\Java\jdk11.0.10
+	java.io.tmpdir = C:\Users\USUARI~1.LAP\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Paquetes;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\emulator;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk11.0.10\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\gradle-6.8.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.0\bin;C:\Program Files\apache-activemq-5.16.2\bin;C:\wamp64\bin\php\php5.6.40;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ORACLEINSTANTCLIENT;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\PDFtk\bin\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Yarn\bin;C:\Program Files\nodejs\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Microsoft\WindowsApps;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nvm;C:\Program Files\nodejs;C:\Program Files\nvm;C:\Paquetes;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\Composer\vendor\bin;C:\Users\usuario.LAPTOP-F3FG00LV\.dotnet\tools;C:\Program Files\heroku\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 11.0.10+8-LTS-162
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://openjdk.java.net/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.10
+	java.version.date = 2021-01-19
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.10+8-LTS-162
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server
+	jboss.host.name = pc-207
+	jboss.modules.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc-207
+	jboss.qualified.host.name = pc-207
+	jboss.server.base.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone
+	jboss.server.config.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log
+	jboss.server.name = pc-207
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties
+	module.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	org.jboss.boot.log.file = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk11.0.10\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar -mp C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = UY
+	user.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy
+	user.home = C:\Users\usuario.LAPTOP-F3FG00LV
+	user.language = es
+	user.name = usuario
+	user.script = 
+	user.timezone = America/Montevideo
+	user.variant = 
+2023-02-21 06:06:51,663 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-modules=java.se --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-modules=java.se -Djboss.home.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server -Djboss.server.base.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone -Djboss.server.log.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log -Djboss.server.config.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration -Dorg.jboss.boot.log.file=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log -Dlogging.configuration=file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties 
+2023-02-21 06:06:53,218 ERROR [org.jboss.as.controller] (Controller Boot Thread) 
+
+OPVDX001: Error de validación en standalone.xml --------------------------------
+|
+|  64: 
+|  65:         <management-interfaces>
+|  66:             <http-interface security-realm="ManagementRealm">
+|                                                                   ^^^^ 'security-realm' no es un atributo permitido para el elemento
+|                                                                          'http-interface'
+|                                                                        
+|                                                                        Los atributos permitidos aquí son: 
+|                                                                          allowed-origins              sasl-protocol                
+|                                                                          console-enabled              server-name                  
+|                                                                          http-authentication-factory  ssl-context                  
+|
+|  67:                 <http-upgrade enabled="true"/>
+|  68:                 <socket-binding http="management-http"/>
+|  69:             </http-interface>
+|
+| 'security-realm' se permite en los elementos: 
+| - server > profile > {urn:jboss:domain:remoting:5.0}subsystem > connector
+| - server > profile > {urn:jboss:domain:remoting:5.0}subsystem > http-connector
+| - server > profile > {urn:jboss:domain:remoting:5.0}subsystem > outbound-connections > remote-outbound-connection
+| - server > profile > {urn:jboss:domain:undertow:13.0}subsystem > server > https-listener
+| - server > profile > {urn:jboss:domain:undertow:13.0}subsystem > server > host > http-invoker
+| - server > profile > {urn:jboss:domain:undertow:13.0}subsystem > handlers > reverse-proxy > host
+| - server > profile > {urn:jboss:domain:undertow:13.0}subsystem > filters > mod-cluster
+|
+|
+| El mensaje de error base primario fue:
+| > ParseError at [row,col]:[66,62]
+| > Message: WFLYCTL0197: Unexpected attribute 'security-realm'
+| >   encountered
+|
+|-------------------------------------------------------------------------------
+
+2023-02-21 06:06:53,222 ERROR [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0055: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: WFLYCTL0085: Failed to parse configuration
+	at org.jboss.as.controller@19.0.1.Final//org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:137)
+	at org.jboss.as.server@19.0.1.Final//org.jboss.as.server.ServerService.boot(ServerService.java:405)
+	at org.jboss.as.controller@19.0.1.Final//org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:473)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2023-02-21 06:06:53,226 FATAL [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details. - Server configuration file in use: standalone.xml
+2023-02-21 06:06:53,259 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) stopped in 27ms
+2023-02-21 06:13:29,702 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-02-21 06:13:30,241 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-21 06:13:30,251 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-21 06:13:30,357 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-02-21 06:13:30,365 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Program Files\Java\jdk11.0.10
+	java.io.tmpdir = C:\Users\USUARI~1.LAP\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Paquetes;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\emulator;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\tools\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk11.0.10\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\gradle-6.8.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.0\bin;C:\Program Files\apache-activemq-5.16.2\bin;C:\wamp64\bin\php\php5.6.40;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ORACLEINSTANTCLIENT;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\PDFtk\bin\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Yarn\bin;C:\Program Files\nodejs\;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Microsoft\WindowsApps;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nvm;C:\Program Files\nodejs;C:\Program Files\nvm;C:\Paquetes;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\Composer\vendor\bin;C:\Users\usuario.LAPTOP-F3FG00LV\.dotnet\tools;C:\Program Files\heroku\bin;C:\Users\usuario.LAPTOP-F3FG00LV\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 11.0.10+8-LTS-162
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://openjdk.java.net/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.10
+	java.version.date = 2021-01-19
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.10+8-LTS-162
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server
+	jboss.host.name = pc-207
+	jboss.modules.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc-207
+	jboss.qualified.host.name = pc-207
+	jboss.server.base.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone
+	jboss.server.config.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration
+	jboss.server.data.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data
+	jboss.server.deploy.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\data\content
+	jboss.server.log.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log
+	jboss.server.name = pc-207
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties
+	module.path = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules
+	org.jboss.boot.log.file = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk11.0.10\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\jboss-modules.jar -mp C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = UY
+	user.dir = C:\Desarrollo\intelliJ\rest-jax-rs-resteasy
+	user.home = C:\Users\usuario.LAPTOP-F3FG00LV
+	user.language = es
+	user.name = usuario
+	user.script = 
+	user.timezone = America/Montevideo
+	user.variant = 
+2023-02-21 06:13:30,372 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-modules=java.se --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-modules=java.se -Djboss.home.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server -Djboss.server.base.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone -Djboss.server.log.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log -Djboss.server.config.dir=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration -Dorg.jboss.boot.log.file=C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\log\server.log -Dlogging.configuration=file:C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\logging.properties 
+2023-02-21 06:13:31,150 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-02-21 06:13:31,452 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 26) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-02-21 06:13:31,457 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 26) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-02-21 06:13:31,686 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 32) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-02-21 06:13:31,757 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-21 06:13:31,774 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.8.8.Final
+2023-02-21 06:13:31,780 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.8.8.Final
+2023-02-21 06:13:31,816 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-02-21 06:13:31,816 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-21 06:13:31,844 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-02-21 06:13:31,834 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-02-21 06:13:31,846 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-02-21 06:13:31,833 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-21 06:13:31,851 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-02-21 06:13:31,875 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-02-21 06:13:31,880 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-02-21 06:13:31,882 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-02-21 06:13:31,884 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-02-21 06:13:31,885 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-02-21 06:13:31,933 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-02-21 06:13:32,006 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-02-21 06:13:32,116 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2023-02-21 06:13:32,164 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-02-21 06:13:32,209 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-21 06:13:32,229 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-02-21 06:13:32,268 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY00023: KeyStore file 'C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-02-21 06:13:32,280 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-21 06:13:32,402 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY01084: KeyStore C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-02-21 06:13:33,133 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-02-21 06:13:33,141 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-02-21 06:13:33,141 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-02-21 06:13:33,201 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.26.Final
+2023-02-21 06:13:33,209 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-02-21 06:13:33,220 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2023-02-21 06:13:33,224 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) Queuing requests.
+2023-02-21 06:13:33,232 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2023-02-21 06:13:33,249 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Desarrollo\intelliJ\rest-jax-rs-resteasy\target\server\standalone\deployments
+2023-02-21 06:13:33,347 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-02-21 06:13:33,347 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-02-21 06:13:33,468 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-02-21 06:13:33,477 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-21 06:13:33,550 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-02-21 06:13:33,650 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-02-21 06:13:33,654 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 4273ms - Started 290 of 563 services (357 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-02-21 06:13:33,657 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-02-21 06:13:33,657 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990

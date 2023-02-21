@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Persons</title>
+<!--===============================================================================================-->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--===============================================================================================-->
+<link href="css/style.css" rel="stylesheet">
+<!--===============================================================================================-->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+
+<body>
+	<div class="container">
+		<form id="contact" action="" method="post">
+			<h3>Ideas de-mente</h3>
+			<h4>Nuevo usuario</h4>
+			<fieldset>
+				<input id="nameId" placeholder="name" type="text" tabindex="1"
+					value="Diego" required autofocus>
+			</fieldset>
+			<fieldset>
+				<input id="lastNameId" placeholder="last name" type="text"
+					value="Gonzalez" tabindex="1" required autofocus>
+			</fieldset>
+			<fieldset>
+				<input id="emailId" placeholder="email" type="email" tabindex="2"
+					value="1987diegog@gmail.com" required>
+			</fieldset>
+			<fieldset>
+				<input id="ageId" placeholder="age" type="number" tabindex="3"
+					value="32" required>
+			</fieldset>
+			<fieldset>
+				<input id="phoneId" placeholder="phone" type="tel" tabindex="3"
+					value="(+598) 99267337" required>
+			</fieldset>
+			<fieldset>
+				<textarea id="perfilId" placeholder="Perfil" tabindex="5" required></textarea>
+			</fieldset>
+			<fieldset>
+				<button name="submit" type="button" onclick="enviarData();"
+					id="contact-submit" data-submit="...Sending">Guardar</button>
+			</fieldset>
+			<p class="copyright">
+				Designed by <a href="https://colorlib.com" target="_blank"
+					title="Colorlib">Colorlib</a>
+			</p>
+		</form>
+	</div>
+
+	<div class="container-table100" style="margin-bottom: 10%;">
+		<div class="wrap-table100">
+			<div class="table100 ver3 m-b-110">
+				<div class="table100-head">
+
+					<table>
+						<thead>
+							<tr class="row100 head">
+								<th class="cell100 column1">Name</th>
+								<th class="cell100 column2">LastName</th>
+								<th class="cell100 column3">Email</th>
+								<th class="cell100 column4">Cellphone</th>
+								<th class="cell100 column5">Age</th>
+							</tr>
+						</thead>
+					</table>
+
+				</div>
+
+				<div class="table100-body js-pscroll">
+					<table id="myTable">
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/script.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/perfect-scrollbar.min.js"></script>
+	<!--===============================================================================================-->
+	<script>
+		$('.js-pscroll').each(function() {
+			var ps = new PerfectScrollbar(this);
+
+			$(window).on('resize', function() {
+				ps.update();
+			})
+		});
+	</script>
+</body>
+</html>
